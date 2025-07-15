@@ -15,5 +15,12 @@
       "model": "viam:kunbus:revolutionpi-encoder"
     }
   ],
-  "entrypoint": "viam-revolution-pi"
+  "entrypoint": "viam-revolution-pi",
+  "first_run": "",
+  "build": {
+    "build": "make",
+    "arch": [
+      "linux/arm64"
+    ]
+  }
 }
